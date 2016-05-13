@@ -10,7 +10,6 @@ if __name__ == "__main__":
     for line in map(lambda l: l.rstrip(), stdin.readlines()):
         if line.startswith('language'):
             language = line.split(':')[1].strip()
-            print("Language", language)
             continue
         if not in_code and line.startswith('```') and language in line:
             in_code = True
