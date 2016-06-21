@@ -1,8 +1,13 @@
+
+# dht
 Flask==0.10.1
 Frozen-Flask==0.12
-jinja2==2.8
 ghp-import
+ipython[notebook]
+jinja2==2.8
 markdown==2.6.5
+nxpd==0.2.0
 pygments==2.0.2
 pyyaml==3.11
 requests==2.7
+simpy
