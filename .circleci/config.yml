@@ -37,7 +37,7 @@ jobs:
           command: stack setup
       - run:
           name: Build everything
-          command: stack build
+          command: stack build -j1
           no_output_timeout: 30m
       - save_cache:
           name: Cache Dependencies
